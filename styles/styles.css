@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	background-color:#7A8B8A
+}
+
+.wrapper{
+	max width: 1170;
+	margin: 0 auto;
+	background-color:#41DDE0;
+}
+	
+	

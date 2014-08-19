@@ -4,13 +4,66 @@
 body{
 	margin:0;
 	padding:0;
-	background-color:#7A8B8A
+	background-color:#7A8B8A;
 }
 
 .wrapper{
-	max width: 1170;
+	max width: 1170px;
 	margin: 0 auto;
 	background-color:#41DDE0;
 }
+
+nav{
+	list-style-type:none;
+	float:right;
+	background-color:#F11115;
+}
+
+nav ul{
+	list-style-type:none; 
+	margin:0; 
+  	padding:0 0 0 3%;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+}
+
+.column-features{
+	background-color:#36913C;
+	width: 33%;
+	float: left;
+}
+
+#gallery{
+	clear:both;
+	background-color:#838383;
+	overflow:auto;
+}
+
+.column-screenshot{
+
+}
+
+.column-gallery{
+	background-color:#E32D30;
+	width: 20%;
+	float:left;
+}
+
+.column-gallery img{ 
+	width: 100%;
+}
+
+.column-about{
+}
+
+.about-picture{
+}
+
+
 	
 	

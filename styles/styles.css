@@ -7,6 +7,9 @@
 
 #home{
 	max-height: 898px;
+	background: url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
+  	background-height: 100%;
+  	min-height:780px;
 }
 
 body{
@@ -26,31 +29,61 @@ body, h1, h2, nav, header, ul, li {
 
 .text-center{
 	text-align:center;
+	max-width: 970px;
 }
 
 .wrapper{
-	max width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
 }
 
 header{
 	background-color:#FFFFFF;
-	max-height:97px;
-	max-width:1245px;
-	padding:30 50 40 35px;
+	position:fixed;
+	overflow:auto;
+	top:30px;
+	width:100%;
+	max-width:1170x;
+	margin: 0 auto;
+	z-index:1;
 }
 
-nav ul{
-	list-style-type:none; 
-}
-
-header li{
+nav li{
 	float:left;
-	padding: 42px;
+	display: inline;
+	list-style-type:none;
+	padding:0;
 }
 
-a{
-	text-decoration: none;
+nav a{
+	display:block;
+	width: 50px;
+	padding-right: 82px;
+}
+
+.umbrella-logo{
+	float:left;
+}
+
+nav{
+	width:50%;
+	float: right;
+}
+
+.home-image{
+	position:absolute;
+	bottom: 0;
+	right:0;
+	z-index: 0:
+}
+
+a{ list-style-type:none;
+}
+
+.intro{
+	float:left;
+	width:45%;
+	margin-top:350px;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, li {
@@ -65,6 +98,10 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 	box-sizing: border-box;
 }
 
+.column-features img{
+	width:100%;
+}
+
 .column-gallery{
 	width:20%;
 	float: left;
@@ -73,28 +110,28 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 #gallery{
 	clear:both;
-	background-color:#fafafa;
 	overflow:auto;
 }
-
 
 .about-picture{
 	width: 20%;
 	float: left;
 }
 
-#about, #featuredin{
-	background-color:#f8e514;
-	overflow:auto;
+#about, #gallery {
+	background-color:#FAFAFA;
 }
 
 #blockquote{
 	clear: both;
+	max-width: 970px;
+	text-align:center
 }
 
 #featuredin{
 	clear:both;
 	overflow:auto;
+	background-color:#F8E514;
 }
 
 .column-featured-in{

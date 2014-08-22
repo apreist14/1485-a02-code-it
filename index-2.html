@@ -11,7 +11,9 @@
 	<section id="home">
     <div class="wrapper">
     	<header>
+        <div class="umbrella-logo">
         	<h1>Umbrella</h1>
+            </div>
             <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -23,7 +25,7 @@
             </nav>
        </header>
        
-  <div>              
+  <div class="intro">              
          	<h2>Introducing Umbrella</h2>
                 <p>Made to modify and use anywhere</p>
                 <ul>
@@ -34,8 +36,8 @@
                 
            <a href="">download</a>
            <a href="">view gallery</a>
-           <img src="images/handholdingiphone.png"  alt"hand holding iphone"/>
-  </div>
+           </div>
+           <img src="images/handholdingiphone.png"  alt"hand holding iphone" class="home-image"/>
   </div>
   </section>
   
@@ -97,7 +99,7 @@
      
      <div class="column-screenshot">
      	<div class="column-gallery">
-     	<img src="images/screenshot.png" alt="screenshot" />
+     	<img src="images/screen-not-selected.png" alt="screenshot" />
         </div>
         <div class="column-gallery">
         <img src="images/screenshot.png" alt="screenshot" />
@@ -109,7 +111,7 @@
         <img src="images/screenshot.png" alt="screenshot" />
         </div>
         <div class="column-gallery">
-        <img src="images/screenshot.png" alt="screenshot" />
+        <img src="images/screen-not-selected.png" alt="screenshot" />
         </div>
     </div>
   </section>
@@ -134,7 +136,7 @@
 
  <div class="column-about">
            <div class="about-picture">
-                <img src="http://placehold.it">
+                <img src="images/grey-box.png" width="273" height="270">
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
         	<!--Social Links-->
                 <h4>John Doe eh</h4>
@@ -142,19 +144,19 @@
             </div>
             
             <div class="about-picture">
-                <img src="http://placehold.it">
+                <img src="images/grey-box.png" width="273" height="270">
                 <h4>Amanda Fenrnicas</h4>
                 <h6>Lead Developer</h6> 
             </div>
             
             <div class="about-picture">
-                <img src="http://placehold.it">
+                <img src="images/grey-box.png" width="273" height="270">
                 <h4>Hamberg Rodny</h4>
                 <h6>Artist</h6> 
             </div>
             
             <div class="about-picture">
-                 <img src="http://placehold.it">
+                 <img src="images/grey-box.png" width="273" height="270">
                 <h4>Jessica Leonardo</h4>
                 <h6>Photographer</h6> 
             </div>
@@ -209,9 +211,9 @@
     <p>Say Hello!</p>
 
 <form action="">
-Name: <input type="text" name="name"><br>
-Email: <input type="text" name="email"><br>
-Message: <input type="text" name="message">
+ <input type="text" name="name" value="Name"><br>
+<input type="text" name="email" value="Email"><br>
+<input type="text" name="message" value="Message">
 <input type="submit" value="Submit">
 </form>
     
@@ -243,9 +245,9 @@ Message: <input type="text" name="message">
      
      	<h3>Subscribe</h3>
         
-<form method="get" action=""> 
-<input type="text" name="" style=";"> 
-<input type="submit" value="" style=";">
+<form method="get"> 
+<input type="text"> 
+<input type="submit" value="Subscribe">
 </form>
 
         <p>Eusmod tempor incididunt ut labore et dolore magna aliqua.</p>

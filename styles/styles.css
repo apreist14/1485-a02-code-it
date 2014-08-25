@@ -9,20 +9,27 @@
 	max-height: 898px;
 	background: url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
   	background-height: 100%;
-  	min-height:780px;
+  	min-height:800px;
+	background-size: 100%;
+	background-color:#2BC15D;
 }
 
 body{
 	max-width:1600px;
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	background-color:#DA36D0;
 }
 
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	background-color:#A119DB;
 }
 
-body, h1, h2, nav, header, ul, li {
+h1, h2, nav, header, ul, li {
 	margin:0;
 	padding:0;
 }
@@ -30,11 +37,22 @@ body, h1, h2, nav, header, ul, li {
 .text-center{
 	text-align:center;
 	max-width: 970px;
+	background-color:#58A5E8;
+}
+
+p, li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
 
 .wrapper{
 	max-width: 1170px;
 	margin: 0 auto;
+}
+
+#home .wrapper {
+  position: relative;
+  min-height:780px;
 }
 
 header{
@@ -98,6 +116,35 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 	box-sizing: border-box;
 }
 
+h3 {margin:0;}
+
+.feature-details {
+  padding:20px;
+  overflow:auto;
+  cursor:default;
+}
+
+.feature-details:hover {
+  background:#fbfbe9;
+}
+
+.feature-details span {
+  float:left;
+  font-size:30px;
+  line-height:30px;
+  width:15%;
+  margin-top:0;
+}
+
+.feature-content {
+  width:33%;
+  float:left;
+  padding-right: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 .column-features img{
 	width:100%;
 }
@@ -106,6 +153,12 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 	width:20%;
 	float: left;
 	padding-right: 25px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	padding-right:25px;
 }
 
 #gallery{
@@ -132,19 +185,48 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 	clear:both;
 	overflow:auto;
 	background-color:#F8E514;
+	padding: 55px 115px 55px 115px;
+	text-align: center;
+
 }
 
 .column-featured-in{
 	width: 20%;
 	float: left;
-	padding: 175px 115px 215px 115px;
+	padding: 175px 115px 200px 115px;
+}
+
+#contact {
+	clear: both;
+}
+
+.phone{
+	float:right;
+}
+
+footer {
+	font-size: x-small;
+	clear: both;
+	border-top:#F8E514;
 }
 
 .column-footer {
-	width: 25%;
 	float: left;
+	color: #878787;
+	width: 20%;
+	padding: 0 15px 0 15px;
 }
 
+.column-footer p, .column-footer ul {
+	text-align: left;
+}
+
+.explore-links{
+	float: left;
+	max-height: 30px;
+	width: 45%;
+	line-height: 25px;
+}
 
 
 	

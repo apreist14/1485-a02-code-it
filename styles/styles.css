@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 #home, #show-reel {
 	background-color: #f8e514;
 }
@@ -22,12 +29,6 @@ body{
 	background-color:#DA36D0;
 }
 
-*, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	background-color:#A119DB;
-}
 
 h1, h2, nav, header, ul, li {
 	margin:0;

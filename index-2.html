@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <section id="welcome"> 
     <div class="wrapper">
     	<header>
         <div class="umbrella-logo">
@@ -28,12 +29,10 @@
             </ul>
             </nav>
        </header>
-       </div>
+
        
-  <section id="welcome"> 
-  <div class= "wrapper">
   	<div class="welcome-text">             
-         	<h2>Introducing <span class="bolded"> Umbrella</span></h2>
+         	<h2>Introducing <span class="bolded"> Umbrella.</span></h2>
                 <p>Made to modify and use anywhere</p>
                 <ul class="pe-ul">
                 	<li><i class="pe-li pe-7s-angle-right pe-lg"></i> Sed ut perpiciatis unde omnis</li>
@@ -41,8 +40,8 @@
                     <li><i class="pe-li pe-7s-angle-right pe-lg"></i>Doloremque laudantium</li>
                 </ul>
                 
-           <div class="buttons"><a href=""><p><span class="pe-7s-cloud-download pe-lg"></span>download</p></a></div>
-           <div class="buttons"><a href=""><p><span class="pe-7s-look pe-lg"></span>view gallery</p></a></div>
+           <a class="buttons" href=""><p><span class="pe-7s-cloud-download pe-lg"></span> download</p></a>
+           <a class="buttons" href=""><p><span class="pe-7s-look pe-lg"></span> view gallery</p></a>
            </div> <!--welcome-text-->
            <img src="images/handholdingiphone.png"  alt="hand holding iphone" class="home-image"/>
   </div> <!--wrapper-->
@@ -52,7 +51,7 @@
   <section id="features">
   <div class="wrapper">
   <div class="text-center">
-  	<h2 class="section-heading">>&mdash; AMAZING FEATURES &mdash;</h2>
+  	<h2 class="section-heading">&mdash; AMAZING FEATURES &mdash;</h2>
     	<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, qaque ispa quae ab illo inventore veritatis et quasi architecto.</p>
         </div>
         
@@ -96,8 +95,8 @@
 	</div>
     
     <div class="feature-details">
-  <span class="pe-7s-paper-plane"></span>
-  <div class="feature-content pe-2x pe-va">
+  <span class="pe-7s-paper-plane pe-2x pe-va"></span>
+  <div class="feature-content">
     <h3>Accusan timar</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
   	</div>
@@ -163,26 +162,26 @@
  <div class="column-about">
            <div class="about-picture">
              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-                <img src="images/grey-box.png" alt="box" width="273" height="270">
+                <img src="images/grey-box.png" alt="box">
         	<!--Social Links-->
                 <h3 class="name">John Doe eh</h3>
                 <p class="job">Lead Designer</p> 
             </div>
             
             <div class="about-picture">
-                <img src="images/grey-box.png" alt="box" width="273" height="270">
+                <img src="images/grey-box.png" alt="box">
                 <h3 class="name">Amanda Fenrnicas</h3>
                 <p class="job">Lead Developer</p> 
             </div>
             
             <div class="about-picture">
-                <img src="images/grey-box.png" alt="box" width="273" height="270">
+                <img src="images/grey-box.png" alt="box">
                 <h3 class="name">Hamberg Rodny</h3>
                 <p class="job">Artist</p> 
             </div>
             
             <div class="about-picture">
-                 <img src="images/grey-box.png" alt="box" width="273" height="270">
+                 <img src="images/grey-box.png" alt="box">
                 <h3 class="name">Jessica Leonardo</h3>
                 <p class="job">Photographer</p> 
             </div>
@@ -193,13 +192,14 @@
   <section id="block">
   		<div class="wrapper">
   		<div class="text-center">
-  		<p>&ldquo;</p>
-   
+  		<div class="quote">
+    		<img src="http://placehold.it" alt="quote marks" /> 
     	<blockquote><p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut gugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p></blockquote>
     </div>
                     <img src="http://placehold.it">
     				<p>Robert Lenaro</p>
                 	<p>CEP at Cubedes</p> 
+             </div>
          </div>
   </section>
   
@@ -239,10 +239,10 @@
     <h3>Say Hello!</h3>
 
 <form>
- <input type="text" name="name" value="Name"><br>
+<input type="text" name="name" value="Name"><br>
 <input type="text" name="email" value="Email"><br>
 <input type="text" name="message" value="Message">
-<input type="submit" value="Send Message">
+<button><span class="pe-7s-envelope"></span> Send Message </button>
 </form>
     
 <div class="contact-column">

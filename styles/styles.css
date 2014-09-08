@@ -24,13 +24,6 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-
-#home{
-	background:#f8e514 url("../images/background.png") no-repeat center;
-	background-height: 100%;
-	min-height:780px;
-}
-
 .umbrella-logo{
 	float:left;
 }
@@ -71,7 +64,7 @@ nav a:hover{
 
 
 #welcome{
-	background: url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
+	background:#f8e514 url("../images/background.png") no-repeat center;
 	background-height: 100%;
 	min-height:780px;
 }

@@ -26,6 +26,9 @@ body{
 
 
 #home{
+	background:#f8e514 url("../images/background.png") no-repeat center;
+	background-height: 100%;
+	min-height:780px;
 }
 
 .umbrella-logo{
@@ -107,6 +110,7 @@ nav a:hover{
 #features{
 	clear:both;
 	padding-top: 30px;
+	padding-bottom: 25px;
 }
 
 .column-features{
@@ -139,6 +143,7 @@ nav a:hover{
 	overflow:auto;
 	clear:both;
 	padding-top: 30px;
+	padding-bottom: 25px;
 }
 
 .column-screenshot{
@@ -161,6 +166,31 @@ nav a:hover{
 	width: 25%;
 }
 
+.about-picture{
+	float:left;
+	position:relative;
+}
+
+a.about-picture span{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #ddd;
+  padding: 20px;
+}
+
+a.about-picture{
+  float: left;
+  position: relative;
+}
+
+a.about-picture img{
+  display: block;
+}
+
 
 #block{
 }
@@ -168,6 +198,7 @@ nav a:hover{
 #quote{
 	clear:both;
 	padding-top: 30px;
+	padding-bottom: 25px;
 	text-align:center;
 }
 
@@ -186,12 +217,21 @@ nav a:hover{
 #contact{
 	clear:both;
 	padding-top: 30px;
+	padding-bottom: 25px;
 }
 
 .contact-column{
-	float:left;
-	width: 33%;
-	padding-right: 30px;
+	margin-top: 240px;
+}
+
+.contact-column li{
+	padding-bottom: 25px;
+}
+
+.contact-form{
+	margin-top : 165px;
+	width : 50%;
+	float : left;
 }
 
 footer{
@@ -295,13 +335,14 @@ button{
 
 .section-heading{
 	text-transform:uppercase;
+	padding-bottom: 95px;
 }
 
 ul{
 	list-style-type:none;
 }
 
-.column-features img, .about-picture img, .column-screenshot img, .column-featured img, #show-reel img{
+.column-features img, .about-picture img, .column-screenshot img, .column-featured img, #show-reel img .contact-column img{
 	width:100%;
 }
 
@@ -315,9 +356,16 @@ ul{
 }
 
 .quote img{
-	display:block;
-	margin: 0 auto;
+	padding-top:120px;
+	padding-bottom:60px;
+	align-content:center;
 }
+
+.circle img{
+	padding-top: 80px;
+	padding-bottom:25px;
+}
+
 
 #welcome img{
 	width: 40%;
@@ -325,8 +373,8 @@ ul{
 	margin-top: 290px;
 }
 
+
 .about-picture{
-	height:268px;
 	font-size:16px;
 	padding: 15px;
 }
@@ -385,7 +433,6 @@ footer h3{
 
 .jpb{
 	font-size: 13pt;
-	line-height: .3em;
 }
 
 
